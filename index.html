@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="ESTILO.CSS">
+</head>
+<body>
+    <header>
+        <div class="navegador">
+            <div class="header-inner-content">
+                <h1 class="logo">AGROSHOP</h1>
+                <nav class="barra_navegacao_nav">
+                    <ul >
+                        <li>
+                            <a href="index.html"><img src="/assents/imagem/home.png" alt="icone de casa" class="menu-bar-icones">Home</a></li>
+                        <li>
+                            <a href="page-login.html"><img src="/assents/imagem/perfil (2).png" alt="icone de perfil" class="menu-bar-icones">Conta</a></li>
+                        <li>
+                            <a href="#"><img src="/assents/imagem/saco-de-frutas.png" alt="icone de saco com produtos" class="menu-bar-icones">Produtos</a></li>
+                        <li>
+                            <a href="#"><img src="/assents/imagem/contato.png" alt="icone de telefone" class="menu-bar-icones">Contato</a></li>
+                    </ul>
+                </nav>
+
+                <div class="imagem">
+                    <img src="/assents/imagem/carrinho.png" alt="">
+                    <button id="nav-bar" class="botao_menu"><img src="/assents/imagem/menu.png" alt="icone de menu" class="menu" ></button>
+                </div>
+            </div>
+        </div>
+        <!-- barra de navegação oculta -->
+        <nav id="menu-bar">
+            <ul class="menu-bar-lista">
+              <li><a href="index.html"><img src="/assents/imagem/home.png" alt="icone de casa" class="menu-bar-icones">Home</a></li>
+              <li><a href="page-login.html"><img src="/assents/imagem/perfil (2).png" alt="icone de perfil" class="menu-bar-icones">Conta</a></li>
+              <li><a href="#"><img src="/assents/imagem/saco-de-frutas.png" alt="icone de saco com produtos" class="menu-bar-icones">Produtos</a></li>
+              <li><a href="#"><img src="/assents/imagem/contato.png" alt="icone de telefone" class="menu-bar-icones">Contato</a></li>
+            </ul>
+        </nav>
+        <!-- parte do cabeçlho onde fica uma imagem de produtos com uma frase -->
+        <div class="header-bottom-side">
+            <div class="header-bottom-side-left">
+                <p>Da nossa terra para a sua mesa: produtos agrícolas frescos e de qualidade que você merece.</p>
+                <button>clique aqui &#8594;</button>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <!-- conteudo principal -->
+        <section class="pag_produtos_selecionados">
+            <h3 class="titulo_produtos_selecionados">Produtos selecionados</h3>
+            <!-- div onde os produtos ficam expostos -->
+            <div class=" cols_prod_selecionado ">
+                <a href="page-produtos-laranja.html">
+                    <div class="product">
+                        <img src="/assents/imagem/Naranja.jpg" alt="imagem de 3 laranjas" class="imagem_produto">
+                        <p class="nome_produto">Laranja doce  </p>
+                        <p class="estrelas">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                        <p class="valor_produto"><span>R$</span>5,00 </p>
+                        <button class="botao_adicionar" >Adicionar</button>
+                    </div>
+                </a>
+                <a href="page-produtos-banana.html">
+                    <div class="product">
+                        <img src="/assents/produtos/banana-prata-organica.webp" alt="imagem de banana prata" class="imagem_produto">
+                        <p class="nome_produto">Banana Prata 12UN</p>
+                        <p class="estrelas">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                        <p class="valor_produto"><span>R$</span>7,00 </p>
+                        <button  class="botao_adicionar" >Adicionar</button>
+                    </div>
+                </a>
+                <a href="page-produtos-tomate.html">
+                    <div class="product">
+                        <img src="/assents/produtos/tomate-cereja-1.webp" alt="imagem de tomate cereja" class="imagem_produto">
+                        <p class="nome_produto">Tomate Cereja 1kg</p>
+                        <p class="estrelas">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                        <p class="valor_produto"><span>R$</span>3,90 </p>
+                        <button  class="botao_adicionar" >Adicionar</button>
+                    </div>
+                </a>  
+                <a href="">
+                    <div class="product">
+                        <img src="/assents/produtos/maracuja-1589313482855_v2_4x3.jpg" alt="imagem de maracuja aberto" class="imagem_produto">
+                        <p class="nome_produto">Maracuja Acido 1kg</p>
+                        <p class="estrelas">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                        <p class="valor_produto"><span>R$</span>2,70 </p>
+                        <button  class="botao_adicionar" >Adicionar</button>
+                    </div>
+                </a>   
+            </div>
+            <!-- section ondem ficam os produtos separados por categoria -->
+            <section class="container_pro_cat">
+                <h4 class="titulo_produtos_selecionados titulo_cat_produto">Encontre produtos por categoria</h4>
+                <div class="container_produtos_categoria" >
+                    <div class="produtos_categoria">
+                        <h5>Frutas</h5>
+                        <img src="/assents/imagem/banana.png" alt="imagem de banana">
+                        <a href=""><img src="/assents/imagem/mais (2).png" alt="icone de mais"></a>
+                    </div>
+
+                    <div class="produtos_categoria">
+                        <h5>Legumes</h5>
+                        <img src="/assents/imagem/cenoura.png" alt="imagem de cenoura">
+                        <a href="#"><img src="/assents/imagem/mais (2).png" alt="icone de mais"></a>
+                    </div>
+
+                    <div class="produtos_categoria">
+                        <h5>Verduras</h5>
+                        <img src="/assents/imagem/icons8-verdura-64.png" alt="imagem de folhas">
+                        <a href="#"><img src="/assents/imagem/mais (2).png" alt="icone de mais"></a>
+                    </div>
+
+                    <div class="produtos_categoria">
+                        <h5>Leite</h5>
+                        <img src="/assents/imagem/icons8-leite-100.png" alt="imagem de caiza de leite">
+                        <a href="#"><img src="/assents/imagem/mais (2).png" alt="icone de mais"></a>
+                    </div>
+
+                    <div class="produtos_categoria">
+                        <h5>Ovos</h5>
+                        <img src="/assents/imagem/icons8-ovos-100.png" alt="imagem de ovos">
+                        <a href="#"><img src="/assents/imagem/mais (2).png" alt="icone de mais"></a>
+                    </div>
+
+                    <div class="produtos_categoria">
+                        <h5>Grãos</h5>
+                        <img src="/assents/imagem/icons8-amêndoa-48.png" alt="imagem de cafe">
+                        <a href="#"><img src="/assents/imagem/mais (2).png" alt="icone de mais"></a>
+                    </div>
+
+                    <div class="produtos_categoria">
+                        <h5>Ervas</h5>
+                        <img src="/assents/imagem/icons8-fitoterapia-100.png" alt="imagem de planta">
+                        <a href="#"><img src="/assents/imagem/mais (2).png" alt="icone de planta"></a>
+                    </div>
+
+                    <div class="produtos_categoria">
+                        <h5>Sementes</h5>
+                        <img src="/assents/imagem/icons8-sementes-de-linhaça-64.png" alt="imagem de amendoas">
+                        <a href="#"> <img src="/assents/imagem/mais (2).png" alt="icone de mais"></a>
+                    </div>
+
+                </div>
+            </section>
+        </section>
+    </main>
+    <!-- rodape -->
+    <footer>
+        <!-- secao de cada item separadas -->
+        <section class="empresa">
+            <div>
+                <h6>Agroshop</h6>
+                <p>Somos uma plataforma digital de delivery de produtos 100% orgânicos que conecta pequenos produtores rurais a consumidores urbanos.</p>
+            </div>
+        </section>
+
+        <section class="contato">
+            <p class="texto_contato">Nossos contatos</p>
+            <div class="container_whtasapp">
+                <div class="whatsapp">
+                    <img src="/assents/imagem/icons8-whatsapp-100.png" alt="">
+                    <p>Whatsapp</p>
+                </div>
+                <p>(xx) xxxxx-xxxx</p>
+            </div>
+
+            <div class="container_whtasapp">
+                <div class="whatsapp">
+                    <img src="/assents/imagem/icons8-nova-mensagem-100.png" alt="">
+                    <p>E-mail</p>
+                </div>
+                <p>agroshop-ecomerce@gmail.com</p>
+            </div>
+
+        </section>
+
+        <section class="links_importantes">
+            <p>Link importantes</p>
+            <ul>
+                <li><a href="#">Politica de privacidade</a></li>
+                <li><a href="#">Termos de uso</a></li>
+                <li><a href="#">Politica de troca</a></li>
+            </ul>
+        </section>
+    </footer>
+
+    <script src="index.js"> </script>
+</body>
+</html>
